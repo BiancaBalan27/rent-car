@@ -8,5 +8,5 @@ module.exports = {
         }
       }
     },
-    publicPath: "/bianca-balan-rent-car/"
+    publicPath: process.env.NODE_ENV === 'production' ? '/rent-car/' : '/'
   };

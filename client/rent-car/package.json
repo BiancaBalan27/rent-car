@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "balm-ui": "^9.38.0",
@@ -15,7 +16,8 @@
     "vue-responsive": "^1.1.0",
     "vue-router": "^4.0.0-0",
     "vue-step-wizard": "^0.1.17",
-    "vuex": "^4.0.0-0"
+    "vuex": "^4.0.0-0",
+    "webpack-dev-server": "^4.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -30,6 +32,6 @@
     "node-sass": "^6.0.1",
     "sass": "^1.44.0",
     "sass-loader": "^10.1.1",
-    "webpack": "^4.0.0"
+    "webpack": "^4.46.0"
   }
 }
